@@ -6,27 +6,13 @@ body {
 }
 
 
-
-
-
-
-
 .app-container {
     height: 100vh;
     width: 96vw;
     background-color: white;
     position: fixed;
-
     display: flex;
     flex-direction: column;
-}
-
-
-
-
-.bottom-container {
-    flex: 1;
-    background-color: red;
 }
 
 .top-container {
@@ -40,18 +26,15 @@ body {
     flex: 2;
     background-color: rgba(152, 162, 184, 0.452);
     display: flex;
-    
 }
 
 .top-container-menu-button {
     flex: 2;
     display: flex;
-
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    
 }
 
 
@@ -65,35 +48,24 @@ body {
     height: 100%;
 } 
 
-
 .center-flex-text {
     justify-content: center;
     align-items: center;
     display: flex;
-
-    
 } 
-
-.stam {
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-size: 7vh;
-    flex: 1
-}
-
 
 .text-style {
     font-size: 20px;
     font-weight: bolder;
 }
 
-.list-time {
+.mute-item {
     border: 1px;
     border-color: black(0, 0, 0);
     border-style: solid;
     justify-content: center;
     align-items: center;
-  
 }
+
+
 
