@@ -64,18 +64,7 @@ console.log("app");
                   </div>
               
           </div>
-          <div className={"bottom-container"}>
-          <div style={{height: "100%", width: "100%", backgroundColor:"blue"}}>
-              <div style={{height: "100%", width: `${width}%`, backgroundColor:"yellow"}}>
-
-              </div>
-            </div>
-            <div style={{height: "100%", width: "100%", backgroundColor:"blue"}} className={"top-container-menu center-flex-text text-style"}>
-                  <Simplebutton onClick={()=> setPlay(true)} text={"play"}/>
-                  <Simplebutton onClick={()=> setPlay(false)}  text={"pause"}/>
-                  <Simplebutton onClick={()=> setInLoopMode(!inLoopMode)}  text={inLoopMode ? "UnLoop" : "Loop"}/>
-              </div>
-          </div>
+          
     </div>
   );
 }
